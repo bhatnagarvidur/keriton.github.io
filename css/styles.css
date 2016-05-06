@@ -385,16 +385,17 @@ p { color: #6d747c;
     z-index: 1;
     width: 165px;
     height: 1px;
-    background: #ffffff;
+    background: #EAE9E9;
 }
 
 header {
     -webkit-background-size: cover;
     background-size: cover;
-	background: url("../images/background/keriton.png");
+	background: url("../images/background/keriton.jpg");
 	background-repeat: no-repeat;
     background-size: cover;
     background-attachment: scroll;
+	background-position: center;
 }
 
 header .color-overlay {
@@ -808,7 +809,7 @@ header .only-logo .navbar .navbar-header {
     top: 0;
     left: 0;
     z-index: 5;
-    background-color: rgba(1, 11, 20, 0.75);
+    background-color: rgba(0, 20, 36, 0.8);
     -webkit-backface-visibility: hidden;
 }
 
@@ -824,7 +825,7 @@ header .only-logo .navbar .navbar-header {
 }
 
 .text-blue-sub{
-  color: #FFEC00;
+  color: #FFC107;
   font-weight: bolder;
 }
 
@@ -1838,22 +1839,19 @@ header .only-logo .navbar .navbar-header {
 ================================================================== */
 
 .testimonial .container {
-  width: 100%;
+	width: 100%;
+	color: #6d747c;
+	background-color: #FAFAFA;
 }
 
 
 .testimonials {
-    background: url(../images/bg-3.jpg) no-repeat center fixed;
-    -webkit-background-size: cover;
-            background-size: cover;
     color: #ffffff;
 }
 
 
 .testimonials .color-overlay {
-    background: rgba(0, 0, 0, .6);
-    padding-top: 70px;
-    padding-bottom: 70px;
+    padding-bottom: 20px;
 }
 
 .testimonials .feedback {
@@ -1888,7 +1886,7 @@ header .only-logo .navbar .navbar-header {
 
 .testimonials .feedback .name {
     margin-top: 15px;
-    font-weight: 400;
+    font-weight: bold;
 }
 
 .testimonials .feedback .company-info {
