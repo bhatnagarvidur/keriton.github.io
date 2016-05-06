@@ -63,7 +63,6 @@ body {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 16px;
     font-weight: 300;
-    line-height: 28px;
     text-align: center;
     overflow-x: hidden !important;
     margin: auto !important;
@@ -316,16 +315,19 @@ h4 {
     font-size: 18px;
     line-height: 30px;
     font-weight: 300;
+	word-spacing: 2px;
 }
 
 h5 {
-    font-size: 22px;
+    font-size: 20px;
     font-weight: bolder;
+	line-height: 1.5em;
 }
 
 p { color: #6d747c;
     font-size: 16px;
     font-weight: 300;
+	word-spacing: 2px;
 }
 
 /*---------------------------------------
@@ -807,7 +809,7 @@ header .only-logo .navbar .navbar-header {
     top: 0;
     left: 0;
     z-index: 5;
-    background-color: rgba(6, 38, 59, 0.7);
+    background-color: rgba(1, 11, 20, 0.75);
     -webkit-backface-visibility: hidden;
 }
 
@@ -1151,7 +1153,7 @@ header .only-logo .navbar .navbar-header {
    font-weight: 400;
    text-transform: uppercase;
    letter-spacing: 3px;
-   line-height: 14px;
+   line-height: 1.5em;
 }
 .services .single-service p {
    text-align: center;

@@ -291,6 +291,17 @@
         }
 
     $(window).load(function() {
+		// All service boxes of equal height
+		$( document ).ready(function() {
+			var heights = $(".single-service").map(function() {
+				return $(this).height();
+			}).get(),
+
+			maxHeight = Math.max.apply(null, heights);
+
+			$(".single-service").height(maxHeight);
+		});
+
         initPreloader();
         $(".preloader").delay(2000).fadeOut("slow");
     });    
