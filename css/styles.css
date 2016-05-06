@@ -218,10 +218,6 @@ textarea:focus, input:focus {
 /* Scroll Down */
  .scroll-btn {
   display: block;
-  position: absolute;
-  bottom: 1%;
-  left: 0;
-  right: 0;
   text-align: center;
   z-index: 100;
 }
@@ -348,7 +344,7 @@ p { color: #6d747c;
   color: #FFF;
 }
 .text-dark-blue{
-  color: #004dff;
+  color: rgba(255, 255, 255, 0.4)
 }
 
 .bg-white{
