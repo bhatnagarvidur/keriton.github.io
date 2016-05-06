@@ -458,8 +458,9 @@
                 navigation: false, // Show next and prev buttons
                 slideSpeed: 400,
                 paginationSpeed: 800,
-                autoPlay: 5000,
-                singleItem: true
+                autoPlay: 10000,
+                singleItem: true,
+				autoplayHoverPause:true
             });
         }
         /*
