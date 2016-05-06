@@ -389,7 +389,8 @@ p { color: #6d747c;
 
 header {
     -webkit-background-size: cover;
-            background-size: cover;
+    background-size: cover;
+	background: url("../images/background/keriton.png");
 }
 
 header .color-overlay {
@@ -803,9 +804,8 @@ header .only-logo .navbar .navbar-header {
     top: 0;
     left: 0;
     z-index: 5;
-    background-color: rgba(19, 106, 164, 0.7);
+    background-color: rgba(6, 38, 59, 0.7);
     -webkit-backface-visibility: hidden;
-
 }
 
 .text-blue{
