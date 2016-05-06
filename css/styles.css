@@ -391,6 +391,9 @@ header {
     -webkit-background-size: cover;
     background-size: cover;
 	background: url("../images/background/keriton.png");
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
 }
 
 header .color-overlay {
