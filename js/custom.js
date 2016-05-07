@@ -446,9 +446,9 @@
         }
         if($("#team-carousel").length > 0){
             $("#team-carousel").owlCarousel({
-                loop: true,
-                autoPlay: 4000, //Set AutoPlay to 3 seconds
-                items : 3,
+                loop: false,
+                autoPlay: false, //Set AutoPlay to 3 seconds
+                items : 4,
                 itemsDesktop : [1199,3],
                 itemsDesktopSmall : [979,3]
             });
@@ -459,7 +459,7 @@
                 slideSpeed: 400,
                 paginationSpeed: 800,
                 autoPlay: 10000,
-                singleItem: true,
+                singleItem: false,
 				autoplayHoverPause:true
             });
         }

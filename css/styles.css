@@ -38,6 +38,33 @@
 GENERAL STYLES
 =========================================
 -----------------------------------------*/
+@keyframes heartbeat
+{
+  0%
+  {
+    transform: scale( .75 );
+  }
+  20%
+  {
+    transform: scale( 1 );
+  }
+  40%
+  {
+    transform: scale( .75 );
+  }
+  60%
+  {
+    transform: scale( 1 );
+  }
+  80%
+  {
+    transform: scale( .75 );
+  }
+  100%
+  {
+    transform: scale( .75 );
+  }
+}
 
 @font-face{
     font-family: "GothamBook";
@@ -354,6 +381,7 @@ p { color: #6d747c;
 
 .section-top{
   padding-top: 60px;
+  min-height: 100vh;
 }
 
 .section-header {
@@ -1327,6 +1355,34 @@ header .only-logo .navbar .navbar-header {
   height: 100%;
 }
 /* ========== Button - Lines ========== */
+.icon-heart-wrapper{
+	animation: heartbeat 1s infinite;
+}
+i.fa.fa-heart {
+    font-size: 36px;
+}
+#benefits .btn-lines.single-service.wow.fadeIn.animated.animated {
+    background-color: #014DFF;
+}
+#benefits .icon {
+    color: #FFFFFF;
+	font-size: 32px;
+}
+#benefits .hvr-ripple-out:before{
+	border: transparent;
+}
+#benefits h5.section-title {
+    color: #FFEB3B;
+}
+#benefits p {
+    color: rgb(255, 255, 255);
+	letter-spacing: 1px;
+}
+#benefits h5 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
 .btn-lines {
   position: relative;
 }
@@ -1962,7 +2018,7 @@ header .only-logo .navbar .navbar-header {
     bottom: 0;
     right: 0;
     margin: 0 auto;
-    background-color: rgba(255, 255, 255, 0.90);
+    background-color: rgba(0, 20, 36, 0.8) !important;
     opacity: 0;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
@@ -1977,7 +2033,7 @@ header .only-logo .navbar .navbar-header {
 
 
 .team-member:hover .team-hover .s-link {
-    bottom: 10%;
+    bottom: 15%;
 }
 
 .team-member:hover .team-hover .desk {
@@ -2016,23 +2072,32 @@ header .only-logo .navbar .navbar-header {
 .desk h4,
 .team-hover .s-link a {
     text-align: center;
-    color: #222;
+    color: white !important;
 }
 
+.desk h4{
+	margin-bottom: 20px !important;
+	margin-top: 0px !important;
+	line-height: inherit;
+}
 .desk h3 h4 {
     margin-bottom: 25px;
     font-size: 16px;
     text-transform: uppercase;
     letter-spacing: 4px;
-    color: #000;
+}
+
+.desk h3{
+	color: white !important;
+	margin-bottom: 0px !important;
+	line-height: inherit !important;
 }
 
 .desk p {
     font-size: 18px;
     margin-bottom: 0;
     font-weight: normal;
-    color: #1d1d1d;
-    line-height: 30px;
+    color: #FFC107 !important;
 }
 
 .team .owl-theme .owl-controls .owl-page span {
