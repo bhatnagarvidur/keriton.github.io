@@ -249,12 +249,12 @@ textarea:focus, input:focus {
 }
 .scroll-btn > * {
   display: inline-block;
-  line-height: 10px;
   font-size: 13px;
   font-weight: normal;
   color: #7f8c8d;
   color: #000;
   letter-spacing: 2px;
+  margin-top: 10px;
 }
 .scroll-btn > *:hover,
 .scroll-btn > *:focus,
@@ -372,7 +372,11 @@ p { color: #6d747c;
   color: #FFF;
 }
 .text-dark-blue{
-  color: rgba(255, 255, 255, 0.4)
+  color: rgb(1, 77, 255);
+}
+
+.arrow_carrot-down{
+  margin-top: 10px;
 }
 
 .bg-white{
@@ -3209,7 +3213,7 @@ li.comment-item {
     -webkit-box-shadow: none;
             box-shadow: none;
     background: #FFFFFF;
-    border: 2px solid #111;
+    border: 2px solid #ccc;
 }
 
 .contact  .contact-box .contact-form .textarea-box {
@@ -3219,7 +3223,7 @@ li.comment-item {
             box-shadow: none;
     background: #FFFFFF;
     height: 120px;
-    border: 2px solid #111;
+    border: 2px solid #ccc;
 }
 
 /* ==================================================================
@@ -3237,7 +3241,16 @@ GOOGLE MAP
 /* ==================================================================
  FOOTER
 ================================================================== */
+.footer-section h2{
+	color: white;
+}
+.footer-section > * {
+	color: #ccc;
+}
 
+.footer-section strong {
+    color: white !important;
+}
 
 .footer-section {
   background: #1d1d1d;
@@ -3337,7 +3350,7 @@ GOOGLE MAP
   font-size: 14px;
   text-transform: uppercase;
   text-align: center;
-  color: #ccc;
+  color: #fff;
 }
 
 .list-tweets li{
@@ -3387,7 +3400,7 @@ GOOGLE MAP
 }
 
 .copyright {
-    font-size: 17px;
+    font-size: 10px;
     color: #808080;
     padding-top: 10px;
     margin-bottom: 50px;

@@ -439,7 +439,7 @@
         if($("#clients-1").length > 0){
             $("#clients-1").owlCarousel({
                 autoPlay: 3000, 
-                items : 5,
+                items : 4,
                 itemsDesktop : [1199,3],
                 itemsDesktopSmall : [979,3]
             });
