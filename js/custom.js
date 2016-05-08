@@ -432,8 +432,8 @@
             $("#clients-1").owlCarousel({
                 autoPlay: 3000, 
                 items : 4,
-                itemsDesktop : [1199,3],
-                itemsDesktopSmall : [979,3]
+                itemsDesktop : [1199,4],
+                itemsDesktopSmall : [979,4]
             });
         }
         if($("#team-carousel").length > 0){
@@ -441,8 +441,8 @@
                 loop: false,
                 autoPlay: false, //Set AutoPlay to 3 seconds
                 items : 4,
-                itemsDesktop : [1199,3],
-                itemsDesktopSmall : [979,3]
+                itemsDesktop : [1199,4],
+                itemsDesktopSmall : [979,4]
             });
         }
         if($("#feedbacks").length > 0){
