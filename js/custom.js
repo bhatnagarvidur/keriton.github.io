@@ -215,7 +215,7 @@
 
     function initContactForm (argument) {
         $("#contact").submit(function (e) {
-            e.preventDefault();
+            //e.preventDefault();
             var name = $("#name").val();
             var email = $("#email").val();
             var subject = $("#subject").val();
@@ -228,18 +228,9 @@
             };
 
             if (isValidEmail(email) && (message.length > 1) && (name.length > 1)) {
-                $.ajax({
-                    type: "POST",
-                    url: "sendmail.php",
-                    data: dataString,
-                    success: function () {
-                        $('.success').fadeIn(1000);
-                        $('.error').fadeOut(500);
-                    }
-                });
-            } else {
+                $('.success').fadeIn(500);
+			} else {
                 $('.error').fadeIn(1000);
-                $('.success').fadeOut(500);
             }
                 return false;
         });
