@@ -433,7 +433,8 @@
                 autoPlay: 3000, 
                 items : 4,
                 itemsDesktop : [1199,4],
-                itemsDesktopSmall : [979,4]
+                itemsDesktopSmall : [979,3],
+                itemsMobile : [979,1]
             });
         }
         if($("#team-carousel").length > 0){
@@ -442,7 +443,7 @@
                 autoPlay: false, //Set AutoPlay to 3 seconds
                 items : 4,
                 itemsDesktop : [1199,4],
-                itemsDesktopSmall : [979,4]
+                itemsDesktopSmall : [979,3]
             });
         }
         if($("#feedbacks").length > 0){
