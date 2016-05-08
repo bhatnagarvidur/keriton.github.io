@@ -230,7 +230,7 @@
             if (isValidEmail(email) && (message.length > 1) && (name.length > 1)) {
                 $.ajax({
                     type: "POST",
-                    url: "sendmail.php",
+                    url: "mailto:info@keriton.com",
                     data: dataString,
                     success: function () {
                         $('.success').fadeIn(1000);
