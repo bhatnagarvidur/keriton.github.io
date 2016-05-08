@@ -1,14 +1,14 @@
 ::selection {
   color: white;
-  background: #004dff; /* WebKit/Blink Browsers */
+  background: #136aa4; /* WebKit/Blink Browsers */
 }
 ::-moz-selection {
   color: white;
-  background: #004dff; /* Gecko Browsers */
+  background: #136aa4; /* Gecko Browsers */
 }
 
 .ip-header .ip-loader svg path.ip-loader-circle{
-  stroke: #004dff;
+  stroke: #136aa4;
 }
 
 .color-overlay {
@@ -16,62 +16,62 @@
 }
 
 a:hover {
-    color: #004dff;
+    color: #136aa4;
 }
 
 a:active {
-    color: #004dff;
+    color: #136aa4;
 }
 
 a:focus{
-  color: #004dff;
+  color: #136aa4;
 }
 
 
 .sticky-navigation{
 
-    /*border-bottom: solid 1px #004dff ;*/
+    /*border-bottom: solid 1px #136aa4 ;*/
 }
 
 .sticky-navigation .main-navigation .current a{
-    color: #004dff;
+    color: #136aa4;
 }
 
 .sticky-navigation .main-navigation li a:hover{
-  color: #004dff;
+  color: #136aa4;
   background: none;
 }
 
 .sticky-navigation .main-navigation li a:active{
-  color: #004dff;
+  color: #136aa4;
   background: none;
 }
 
 .sticky-navigation .main-navigation li a:focus{
-  color: #004dff;
+  color: #136aa4;
   background: none;
 }
 
 .navbar-toggle .icon-bar{
-  background-color: #004dff;
+  background-color: #136aa4;
 }
 
 
 .services .single-service .icon-container .icon{
 
-    color: #004dff;
+    color: #136aa4;
 }
 
 .hvr-ripple-out:before{
-    border: #004dff solid 1px;
+    border: #136aa4 solid 1px;
 }
  
 .progress .bar {
-    background: #004dff;
+    background: #136aa4;
 }
 
  .pf-filter li.active{
-  color: #004dff;
+  color: #136aa4;
 }
 
 .portfolio-hover{
@@ -79,23 +79,23 @@ a:focus{
 }
 
 .portfolio-project-info li a:hover {
-    color: #004dff;
+    color: #136aa4;
 }
 
 .testimonials .owl-theme .owl-controls .owl-page span {
-    background: #004dff;
+    background: #136aa4;
     border-radius: 20%;
     max-height: 2px;
 }
 
 .clients .owl-theme .owl-controls .owl-page span {
-    background: #004dff;
+    background: #136aa4;
     border-radius: 20%;
     max-height: 2px;
 }
 
 .team-hover {
-    border: 2px solid #004dff;
+    border: 2px solid #136aa4;
     background-color: rgba(0, 77, 255, .7);
 }
 
@@ -109,31 +109,31 @@ a:focus{
 }
 
 .team .owl-theme .owl-controls .owl-page span {
-    background: #004dff;
+    background: #136aa4;
 }
 
 .special-package{
-  color: #004dff;
+  color: #136aa4;
 }
 
 .special-package .price h2,
 .special-package .price h2 span,
 .special-package .price p 
 {
-  color: #004dff;
+  color: #136aa4;
 }
 
 .special-package .hvr-bounce-to-right:before{
-  background: #004dff;
+  background: #136aa4;
 }
 
 .special-package .single-package{
-  border: 1px solid #004dff;
+  border: 1px solid #136aa4;
 }
 
 .special-package .btn-price{
-  color: #004dff;
-  border-color: #004dff;
+  color: #136aa4;
+  border-color: #136aa4;
 }
 
 .special-package .btn-price:hover{
@@ -145,58 +145,58 @@ a:focus{
 .btn-lines .line-bottom,
 .btn-lines .line-left,
 .btn-lines .line-right {
-  background: #004dff;
+  background: #136aa4;
 }
 
 .funfactor .icon-container i {
-    color: #004dff;
+    color: #136aa4;
 }
 
 .blog-title :hover{
-    color: #004dff;
+    color: #136aa4;
 }
 
 .blog-post-title :hover {
-    color: #004dff; 
+    color: #136aa4; 
 }
 
 .author a :hover {
-  color: #004dff;
+  color: #136aa4;
   
  }
 
  .read-more :hover{
-    color: #004dff;
+    color: #136aa4;
  }
 
 .blog-list-item-detail a:hover{
-  color: #004dff;
+  color: #136aa4;
 }
 
 .blog-item-detail a:hover{
-  color: #004dff;
+  color: #136aa4;
 }
 
 .input-field:active{
-  border: 1px solid  #004dff;
+  border: 1px solid  #136aa4;
   border-radius: 5px;
 }
 
 .input-field:focus {
-  border-color: #004dff;
+  border-color: #136aa4;
 }
 
 .clearlist li a:hover  {
-    color: #004dff;
+    color: #136aa4;
 }
 
 .tags a:hover {
-   color: #004dff; 
-  border: 1px solid #004dff;
+   color: #136aa4; 
+  border: 1px solid #136aa4;
 }
 
 .article-nav a i:hover{
-  color: #004dff;
+  color: #136aa4;
 }
 
 /**/
@@ -206,7 +206,7 @@ a:focus{
 }
 
 .standard-button2 {
-    background:  #004dff;
+    background:  #136aa4;
 }
 
 .standard-button2:hover {
@@ -223,19 +223,19 @@ a:focus{
 
 .colored-line,
 .colored-line-left {
-    background:  #004dff;
+    background:  #136aa4;
 }
 
 .main-color {
-    color:  #004dff;
+    color:  #136aa4;
 }
 
 .theme-color {
-    color:  #004dff;
+    color:  #136aa4;
 }
 
 .theme-color-bg {
-    background-color:  #004dff;
+    background-color:  #136aa4;
 }
 
 .color-bg {
@@ -249,35 +249,35 @@ a:focus{
 }
 
 .contact .contact-button:hover {
-    background:  #004dff;
+    background:  #136aa4;
 }
 
 .contact .contact-box .input-box:active,
 .contact .contact-box .textarea-box:active,
 .contact .contact-box .input-box:focus,
 .contact .contact-box .textarea-box:focus {
-    border: 1px solid  #004dff;
+    border: 1px solid  #136aa4;
     color: #111;
 }
 
 .social-icons li a:hover {
-    color:  #004dff;
+    color:  #136aa4;
 }
 
 .comment-reply .contact-box .input-box:active,
 .comment-reply .contact-box .textarea-box:active,
 .comment-reply .contact-box .input-box:focus,
 .comment-reply .contact-box .textarea-box:focus {
-    border: 1px solid  #004dff;
+    border: 1px solid  #136aa4;
     color: #111;
 }
 
 .contact  .contact-address i{
-  color: #004dff;
+  color: #136aa4;
 }
 
 .blog-item-detail a:hover {
-  color: #004dff;
+  color: #136aa4;
 }
 
 .nav-transparent{
@@ -285,5 +285,5 @@ a:focus{
 }
 
 .list-tweets li a:hover{
-  color: #004dff;
+  color: #136aa4;
 }
