@@ -1,7 +1,6 @@
 (function($){
 
     'use strict';
-
     /*  
         Credits: http://shariarbd.com/demo/responsive-isotope-masonry-layout/
     */

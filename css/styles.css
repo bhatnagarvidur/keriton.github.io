@@ -79,14 +79,24 @@ GENERAL STYLES
     /* url('BlenderPro-Bold.eot'); /* IE */
 }
 
+@font-face{
+    font-family: "Trench100Bold";
+    src: url('../fonts/Trench100Bold.ttf');
+    /* url('BlenderPro-Bold.eot'); /* IE */
+}
 
+@font-face{
+    font-family: "Trench100Medium";
+    src: url('../fonts/Trench100Medium.ttf');
+    /* url('BlenderPro-Bold.eot'); /* IE */
+}
 html {
     font-size: 100%;
 }
 
 body {
     height: 100%;
-    background: #FFFFFF;
+    background: #FDFDFD;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 16px;
     font-weight: 300;
@@ -324,7 +334,9 @@ h1 {
 }
 
 h2 {
-    font-family: 'Lato', sans-serif;
+    --font-family: 'Lato', sans-serif;
+	font-family: Trench100Medium;
+    text-transform: uppercase;
     font-weight: 700;
     font-size: 42px;
     letter-spacing: 1px;
@@ -350,10 +362,12 @@ h5 {
 	line-height: 1.5em;
 }
 
-p { color: #6d747c;
+p {
+	color: rgb(51, 51, 51);
     font-size: 16px;
     font-weight: 300;
-	word-spacing: 2px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
 }
 
 /*---------------------------------------
@@ -588,7 +602,6 @@ header .color-overlay {
 }
 
 .sticky-navigation {
-  min-height: 60px;
   background: #FFFFFF;
   opacity: 1;
   padding: 0 !important;
@@ -609,10 +622,8 @@ header .color-overlay {
 }
 
 .sticky-navigation .main-navigation li a {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Trench100Medium', sans-serif;
   letter-spacing: 1px;
-  font-weight: 400;
-  font-size: 10px;
   text-transform: uppercase;
 }
 
@@ -627,7 +638,7 @@ header .color-overlay {
 .sticky-navigation .main-navigation li a:focus{
   background: none;
 }
-
+	
 .navbar-brand{
   padding: 10px;
 }
@@ -1167,6 +1178,9 @@ header .only-logo .navbar .navbar-header {
 /* ==================================================================
  SERVICE SECTION
 ================================================================== */
+section#journey {
+    background-color: #F8F8F8;
+}
 
 .services {
     margin: 0 auto;
@@ -1366,7 +1380,7 @@ i.fa.fa-heart {
     font-size: 36px;
 }
 #benefits .btn-lines.single-service.wow.fadeIn.animated.animated {
-    background-color: #014DFF;
+    background-color: #136aa4;
 }
 #benefits .icon {
     color: #FFFFFF;
@@ -2776,8 +2790,7 @@ display: block;
 
 .widget {
   width: 100%;
-  margin-bottom: 60px;
-  padding: 5px;
+  padding: 10px;
 }
 .widget-title {
   margin-bottom: 15px;
@@ -3400,7 +3413,7 @@ GOOGLE MAP
 }
 
 .copyright {
-    font-size: 10px;
+    font-size: 12px;
     color: #808080;
     padding-top: 10px;
     margin-bottom: 50px;

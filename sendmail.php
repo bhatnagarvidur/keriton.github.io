@@ -20,7 +20,7 @@ $headers = 'From: ' . $_POST["name"] . '<' . $_POST["email"] . '>' . "\r\n" .
     'X-Mailer: PHP/' . phpversion();
   
   //  Replace with your email
-  mail( "creohelpers@gmail.com", $_POST['subject'], $_POST['message'], $headers );
+  mail( "info@keriton.com", $_POST['subject'], $_POST['message'], $headers );
    
 }
 ?>
