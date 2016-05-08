@@ -228,9 +228,11 @@
             };
 
             if (isValidEmail(email) && (message.length > 1) && (name.length > 1)) {
-                $('.success').fadeIn(500);
+                $('.success').fadeIn(1000);
+				$('.error').fadeOut(500);
 			} else {
-                $('.error').fadeIn(1000);
+                $('.success').fadeIn(500);
+				$('.error').fadeIn(1000);
             }
                 return false;
         });
