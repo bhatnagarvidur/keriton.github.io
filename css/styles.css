@@ -157,7 +157,7 @@ a {
 
 a:hover {
     text-decoration: none;
-    opacity: 0.9;
+    --opacity: 0.9;
 }
 
 a:active {
@@ -357,7 +357,7 @@ h4 {
 }
 
 h5 {
-    font-size: 20px;
+    font-size: 24px;
     font-weight: bolder;
 	line-height: 1.5em;
 }
@@ -439,9 +439,13 @@ header {
     background-size: cover;
 	background: url("../images/background/keriton.jpg");
 	background-repeat: no-repeat;
-    background-size: cover;
     background-attachment: scroll;
 	background-position: center;
+}
+
+#notfound{
+	background: url("../images/background/404.jpg") !important;
+	background-size: cover !important;
 }
 
 header .color-overlay {
@@ -869,7 +873,7 @@ header .only-logo .navbar .navbar-header {
 
 .text-blue-sub{
   color: #FFC107;
-  font-weight: bolder;
+  font-weight: bold;
 }
 
 
@@ -1985,10 +1989,13 @@ i.fa.fa-heart {
  CLIENT
 ================================================================== */
 
-#clients-1{
+#investments, #awards{
   padding-top: 30px;
 }
 
+#investments img, #awards img{
+	width: 256px;
+}
 .clients .owl-theme .owl-controls .owl-page span {
     border-radius: 20%;
     max-height: 2px;
@@ -2256,7 +2263,7 @@ i.fa.fa-heart {
   left: 0;
   right: 0;
   bottom: 0;
-  background: #fff;
+  background: #fff !important;
   -webkit-transform: scaleX(0);
   transform: scaleX(0);
   -webkit-transform-origin: 0 50%;
@@ -3254,6 +3261,11 @@ GOOGLE MAP
 /* ==================================================================
  FOOTER
 ================================================================== */
+
+iframe#twitter-widget-0 {
+	width: 100% !important;
+}
+
 .footer-section h2{
 	color: white;
 }

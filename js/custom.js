@@ -428,20 +428,36 @@
                 navigation: false
             });
         }
-        if($("#clients-1").length > 0){
-            $("#clients-1").owlCarousel({
+        if($("#investments").length > 0){
+            $("#investments").owlCarousel({
                 autoPlay: 3000, 
                 items : 4,
                 itemsDesktop : [1199,4],
-                itemsDesktopSmall : [979,3],
-                itemsMobile : [979,1]
+                itemsDesktopSmall : [979,2]
+            });
+        }
+		if($("#awards").length > 0){
+            $("#awards").owlCarousel({
+                autoPlay: 3000, 
+                items : 3,
+                itemsDesktop : [1199,4],
+                itemsDesktopSmall : [979,2]
             });
         }
         if($("#team-carousel").length > 0){
             $("#team-carousel").owlCarousel({
                 loop: false,
                 autoPlay: false, //Set AutoPlay to 3 seconds
-                items : 4,
+                items : 2,
+                itemsDesktop : [1199,2],
+                itemsDesktopSmall : [979,2]
+            });
+        }
+		if($("#advisor-carousel").length > 0){
+            $("#advisor-carousel").owlCarousel({
+                loop: false,
+                autoPlay: false, //Set AutoPlay to 3 seconds
+                items : 3,
                 itemsDesktop : [1199,4],
                 itemsDesktopSmall : [979,3]
             });
